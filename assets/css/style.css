@@ -1297,3 +1297,28 @@ section {
 .pintu {
   cursor: pointer;
 }
+
+/* Download */
+
+.aaa {
+  font-size: 19px;
+  display: inline-block;
+  background: #533d8b;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  transition: 0.25s;
+}
+
+.aaa:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.623);
+  background: #fff;
+  color: #ff9e00;
+  text-shadow: 1px 1px 15px #fcb035;
+  transform: scale(1.2);
+}
